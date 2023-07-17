@@ -1,0 +1,197 @@
+.wrapper {
+    margin: auto;
+    width: 90%;
+    max-width: 1500px;
+}
+header {
+    display: flex;
+    justify-content:space-between ;
+}
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    min-height: 30px;
+    min-width: 80px;
+
+}
+li:nth-child(1) {
+ border-bottom:1px solid blue;
+}
+li:nth-child(2) {
+    border-bottom:1px solid rgb(20, 20, 75);
+   }
+   li:nth-child(3) {
+    border-bottom:1px solid rgb(36, 97, 49);
+   }
+   li:nth-child(4) {
+    border-bottom:1px solid rgb(92, 40, 5);
+   }
+   li:nth-child(5) {
+    border-bottom:1px solid rgb(185, 108, 19);
+   }
+   .preview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .left {
+    margin-right: 20px;
+    display: grid;
+    grid-template-rows: 50px repeat(2,1fr);
+}
+  
+   .download {
+    margin-top: -100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+   }
+   .downloadLeft {
+    display: grid;
+    grid-template-rows:1fr 1fr;
+   }
+   .description {
+    height: 115px;
+    background: purple;
+    min-height: 50px;
+    position:relative;
+    
+
+   }
+.descriptionItem{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+   .arrowRight {
+    position: absolute;
+    bottom: 14px;
+    right: 24px;
+   }
+   .whiteFonttext {
+    color: white;
+   }
+   .imageHight {
+    height: 100px;
+   }
+   .contentItems {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding: 25px;
+   }
+   
+   .greenBtn {
+    background: green;
+    margin-bottom: 10px;
+   }
+   .samples {
+    background: darkblue;
+    min-height: 40px;
+    margin-top: 10px;
+
+
+   }
+   .downloadRight {
+    position: relative;
+    background: orange;
+    margin-left: 20px;
+
+
+   }
+   .AID {
+    font-size: 34px;
+    letter-spacing: 0.2 em;
+   }
+.priceWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.priceItem {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.inputSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.priceDownload {
+    background: blue;
+}
+.terminal {
+    height: 465px;
+    width: 100%;
+}
+.keyboard {
+    background-color: violet;
+    color: white;
+}
+.doubleArrow {
+    display: inline-block;
+    vertical-align: middle;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: lightgrey;
+}
+.leftForm {
+    display: flex;
+    flex-direction: column;
+}
+.rightForm {
+    display: flex;
+    flex-direction: column;
+}
+.itemForm {
+    margin:15px;
+}
+textarea {
+    min-height: 100px;
+}
+textarea + input {
+    width: 100px;
+    background: violet;
+}
+.div {
+    display: inline-block;
+    
+}
+.footerText {
+    background: lightgrey;
+    padding: 15px 15px;
+    margin-top: 25px;
+}
+.high_speed {
+    border: solid grey 1px;
+    border-left: solid green 20px;
+    padding-left: 10px;
+}
+h4 {
+    color: green;
+}
+h5 {
+    color: orange;
+}
+.TwelveC {
+    border: solid grey 1px;
+    border-left: solid orange 20px;
+    padding-left: 10px;
+    margin-top: 25px;
+} 
+h6 {
+    color: lightseagreen;
+}
+.UART {
+    border: solid grey 1px;
+    border-left: solid #1a9d9d 20px;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+} 
+
+
+
+
